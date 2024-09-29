@@ -99,19 +99,21 @@ section {
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 6rem;
+  
 }
 
 .project-tile {
   display: flex;
   flex-direction: column;
-  font-size: 4vw;
+
+  font-size: 1.5vw;
   color: var(--main-white);
   text-decoration: none;
   background-color: var(--main-black);
 }
 .project-tile p {
   position: relative;
-  padding: 3vw;
+  padding: 3rem;
 }
 .project-tile p::before {
   content: "< ";
