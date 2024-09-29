@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css" integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <nav id="navbar">
-      <a href="#welcome-section">About</a>
-      <a href="#projects">Work</a>
-      <a href="#contact">Contact</a>
+      <ul>
+      <li><a href="#welcome-section">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
     <section id="welcome-section">
       <h1>Hey I am Michael</h1>
@@ -18,13 +21,47 @@
     </section>
     <section id="projects">
       <h2>These are some of my projects</h2>
-      <a class="project-tile">
-        <img
-          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-        />
-        <span>Tribute Page</span>
-      </a>
-      <a href="#" id="profile-link" target="_blank">xxxx</a>
+      
+      <div class="projects-grid">
+        
+          <a class="project-tile" href="https://michael-s-w.github.io/portfolio/"  target="_blank">
+            <img
+            src="./Projects/portfolio.png"
+            />
+            <p>Portfolio Page</p>
+          </a>
+          <a class="project-tile" href="https://michael-s-w.github.io/memory-game-js/"  target="_blank">
+            <img
+            src="./Projects/memory-game-js.png"
+            />
+            <p>Memory Game JS</p>
+          </a>
+          <a class="project-tile" href="https://michael-s-w.github.io/Quiz/"  target="_blank">
+            <img
+            src="./Projects/Quiz.png"
+            />
+            <p>Quiz</p>
+          </a>
+          <a class="project-tile" href="https://michael-s-w.github.io/mswresume/"  target="_blank">
+            <img
+            src="./Projects/resume.png"
+            />
+            <p>Resume</p>
+          </a>
+      </div>
+      <a id="profile-link" href="#">Show all ></a>
+    </section>
+    <section id="contact">
+      <h2>Let's work together...</h2>
+      <p>How do you take your coffee?</p>
+      <div class="links">
+        <a href=""><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+        <a href=""><i class="fa-brands fa-square-github"></i> Github</a>
+        <a href=""><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+        <a href=""><i class="fa-solid fa-at"></i> Email</a>
+        <a href=""><i class="fa-solid fa-mobile-screen-button"></i> Call me</a>
+      </div>
+      <div class="bottom"><i class="bottom-text">© Created by MSW</i></div>
     </section>
   </body>
 </html>
